@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1049245241664",
+    "project_id": "bookorder-5ee04",
+    "storage_bucket": "bookorder-5ee04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049245241664:android:4c46aa3c8520e58aab2aa5",
+        "android_client_info": {
+          "package_name": "com.projectscaffe.orderbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049245241664-8jqhq5iapp55ni4rhhl99rq4tscf2ro2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectscaffe.orderbook",
+            "certificate_hash": "545cdc1ce497a0462745aca6ae78560dde69b533"
+          }
+        },
+        {
+          "client_id": "1049245241664-rrbng8vie22c1h5cr41sh3sd3qvq6hvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUa5PqKHa2zmKgBwJV2isVQg-MCgUmkrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049245241664-rrbng8vie22c1h5cr41sh3sd3qvq6hvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

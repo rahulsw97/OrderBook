@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:padding="13dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#959191"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/display_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Customer Name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_name"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_address"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_address"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/display_Date"
+                android:text="Time"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_Advance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_Date"
+                android:layout_marginTop="10dp"
+                android:text="Advance"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/photoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_Advance"
+                android:layout_marginTop="10dp"
+                android:text="PHOTO"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/videoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_Advance"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/photoo"
+                android:text="VIDEO"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/preweddingoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_Advance"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/videoo"
+                android:text="PRE_W"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cinematicoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_Advance"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/preweddingoo"
+                android:text="CINEM"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/candidoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/display_Advance"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/cinematicoo"
+                android:text="CANDID"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/diaplay_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photoo"
+                android:layout_marginTop="10dp"
+                android:text="PHOTO"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photoo"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/photoo"
+                android:text="vIDEO"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_preweddingo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photoo"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/videoo"
+                android:text="PRE_W"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_cinematic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photoo"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/preweddingoo"
+                android:text="CINEM"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/display_candid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/photoo"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/cinematicoo"
+                android:text="CANDID"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

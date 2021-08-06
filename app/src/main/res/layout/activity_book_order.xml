@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookOrder"
+    android:padding="35dp"
+    >
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER ID"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="orderId"
+        android:layout_toEndOf="@+id/order"
+        android:layout_toRightOf="@+id/order"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/csName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer Name"
+            android:layout_marginTop="35dp"/>
+        <EditText
+            android:id="@+id/csNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Number"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/csAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer Address"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/csDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Date"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/csTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Time"
+            android:layout_marginTop="10dp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <CheckBox
+                android:id="@+id/Photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHOTO"
+                />
+            <CheckBox
+                android:id="@+id/Video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIDEO"
+                android:layout_toEndOf="@+id/Photo"
+                android:layout_toRightOf="@+id/Photo"
+                android:layout_marginStart="46dp"
+                android:layout_marginLeft="15dp" />
+            <CheckBox
+                android:id="@+id/Prewedding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PREWEDDING"
+                android:layout_toEndOf="@+id/Video"
+                android:layout_toRightOf="@+id/Video"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+            <CheckBox
+                android:id="@+id/Cenematic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CENEMATIC"
+                android:layout_below="@+id/Photo"/>
+            <CheckBox
+                android:id="@+id/Candid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANDID"
+                android:layout_below="@id/Photo"
+                android:layout_toEndOf="@id/Cenematic"
+                android:layout_toRightOf="@id/Cenematic"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/amt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Advance Amount"
+                android:layout_below="@+id/Candid"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:layout_below="@id/amt"
+                android:layout_marginTop="15dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
